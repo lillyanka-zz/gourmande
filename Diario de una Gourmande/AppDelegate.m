@@ -7,12 +7,22 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [Parse setApplicationId:@"Sr1WWuYU3FPbxzkdeObhFvYtqnjnNzBYx49tKKFz"
+                  clientKey:@"WOXd99VdBF79ozjU5TXRUQUQHbIZB3CKdFuSw5a5"];
+    
+    [PFFacebookUtils initializeFacebook];
+    
+    [FBLoginView class];
+    
+    [self.window setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"gourmande-bg.jpg"]]];
+    
     return YES;
 }
 							
@@ -36,11 +46,36 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+    [FBAppCall handleDidBecomeActiveWithSession:[PFFacebookUtils session]];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+//- (BOOL)application:(UIApplication *)application
+//            openURL:(NSURL *)url
+//  sourceApplication:(NSString *)sourceApplication
+//         annotation:(id)annotation {
+//    
+//    // Call FBAppCall's handleOpenURL:sourceApplication to handle Facebook app responses
+//    BOOL wasHandled = [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
+//    
+//    // You can add your app-specific url handling code here if needed
+//    
+//    return wasHandled;
+//}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    return [FBAppCall handleOpenURL:url
+                  sourceApplication:sourceApplication
+                        withSession:[PFFacebookUtils session]];
+}
+
 
 @end

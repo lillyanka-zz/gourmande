@@ -22,6 +22,25 @@
 		2B0FF46518D1349700C9D4FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FF44418D1349700C9D4FA /* UIKit.framework */; };
 		2B0FF46D18D1349700C9D4FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B0FF46B18D1349700C9D4FA /* InfoPlist.strings */; };
 		2B0FF46F18D1349700C9D4FA /* Diario_de_una_GourmandeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0FF46E18D1349700C9D4FA /* Diario_de_una_GourmandeTests.m */; };
+		2B0FF48318D1376500C9D4FA /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0FF48218D1376500C9D4FA /* FavoritesViewController.m */; };
+		2B0FF48618D13B4500C9D4FA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0FF48518D13B4500C9D4FA /* LoginViewController.m */; };
+		2B0FF48918D13D0D00C9D4FA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0FF48818D13D0D00C9D4FA /* RegisterViewController.m */; };
+		2B0FF48C18D13D4900C9D4FA /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0FF48B18D13D4900C9D4FA /* EntryViewController.m */; };
+		2B0FF49018D13E8400C9D4FA /* flourish.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0FF48D18D13E8400C9D4FA /* flourish.png */; };
+		2B0FF49118D13E8400C9D4FA /* gourmande-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B0FF48E18D13E8400C9D4FA /* gourmande-bg.jpg */; };
+		2B0FF49218D13E8400C9D4FA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0FF48F18D13E8400C9D4FA /* logo.png */; };
+		2B0FF49418D1437000C9D4FA /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FF49318D1437000C9D4FA /* FacebookSDK.framework */; };
+		2B0FF49618D14A7C00C9D4FA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FF49518D14A7C00C9D4FA /* Parse.framework */; };
+		2B0FF49818D14AB700C9D4FA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FF49718D14AB700C9D4FA /* AudioToolbox.framework */; };
+		2B0FF49A18D14AC000C9D4FA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FF49918D14AC000C9D4FA /* CFNetwork.framework */; };
+		2B0FF49C18D14ACC00C9D4FA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FF49B18D14ACC00C9D4FA /* CoreLocation.framework */; };
+		2B0FF49E18D14AD400C9D4FA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FF49D18D14AD400C9D4FA /* libz.dylib */; };
+		2B0FF4A018D14AE200C9D4FA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FF49F18D14AE200C9D4FA /* MobileCoreServices.framework */; };
+		2B0FF4A218D14B0500C9D4FA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FF4A118D14B0500C9D4FA /* QuartzCore.framework */; };
+		2B0FF4A418D14B0C00C9D4FA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FF4A318D14B0C00C9D4FA /* Security.framework */; };
+		2B0FF4A618D14B1300C9D4FA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FF4A518D14B1300C9D4FA /* StoreKit.framework */; };
+		2B0FF4A818D14B1D00C9D4FA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FF4A718D14B1D00C9D4FA /* SystemConfiguration.framework */; };
+		2B0FF4AB18D152CE00C9D4FA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0FF4AA18D152CE00C9D4FA /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +75,30 @@
 		2B0FF46A18D1349700C9D4FA /* Diario de una GourmandeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Diario de una GourmandeTests-Info.plist"; sourceTree = "<group>"; };
 		2B0FF46C18D1349700C9D4FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B0FF46E18D1349700C9D4FA /* Diario_de_una_GourmandeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Diario_de_una_GourmandeTests.m; sourceTree = "<group>"; };
+		2B0FF48118D1376500C9D4FA /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		2B0FF48218D1376500C9D4FA /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		2B0FF48418D13B4500C9D4FA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		2B0FF48518D13B4500C9D4FA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		2B0FF48718D13D0D00C9D4FA /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		2B0FF48818D13D0D00C9D4FA /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		2B0FF48A18D13D4900C9D4FA /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		2B0FF48B18D13D4900C9D4FA /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
+		2B0FF48D18D13E8400C9D4FA /* flourish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flourish.png; sourceTree = "<group>"; };
+		2B0FF48E18D13E8400C9D4FA /* gourmande-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gourmande-bg.jpg"; sourceTree = "<group>"; };
+		2B0FF48F18D13E8400C9D4FA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		2B0FF49318D1437000C9D4FA /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		2B0FF49518D14A7C00C9D4FA /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		2B0FF49718D14AB700C9D4FA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2B0FF49918D14AC000C9D4FA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2B0FF49B18D14ACC00C9D4FA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2B0FF49D18D14AD400C9D4FA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2B0FF49F18D14AE200C9D4FA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2B0FF4A118D14B0500C9D4FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2B0FF4A318D14B0C00C9D4FA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2B0FF4A518D14B1300C9D4FA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2B0FF4A718D14B1D00C9D4FA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2B0FF4A918D152CE00C9D4FA /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		2B0FF4AA18D152CE00C9D4FA /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +106,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0FF4A818D14B1D00C9D4FA /* SystemConfiguration.framework in Frameworks */,
+				2B0FF4A618D14B1300C9D4FA /* StoreKit.framework in Frameworks */,
+				2B0FF4A418D14B0C00C9D4FA /* Security.framework in Frameworks */,
+				2B0FF4A218D14B0500C9D4FA /* QuartzCore.framework in Frameworks */,
+				2B0FF4A018D14AE200C9D4FA /* MobileCoreServices.framework in Frameworks */,
+				2B0FF49E18D14AD400C9D4FA /* libz.dylib in Frameworks */,
+				2B0FF49C18D14ACC00C9D4FA /* CoreLocation.framework in Frameworks */,
 				2B0FF44318D1349700C9D4FA /* CoreGraphics.framework in Frameworks */,
+				2B0FF49A18D14AC000C9D4FA /* CFNetwork.framework in Frameworks */,
+				2B0FF49818D14AB700C9D4FA /* AudioToolbox.framework in Frameworks */,
+				2B0FF49418D1437000C9D4FA /* FacebookSDK.framework in Frameworks */,
 				2B0FF44518D1349700C9D4FA /* UIKit.framework in Frameworks */,
 				2B0FF44118D1349700C9D4FA /* Foundation.framework in Frameworks */,
+				2B0FF49618D14A7C00C9D4FA /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +139,10 @@
 		2B0FF43418D1349700C9D4FA = {
 			isa = PBXGroup;
 			children = (
+				2B0FF4A918D152CE00C9D4FA /* ProfileViewController.h */,
+				2B0FF4AA18D152CE00C9D4FA /* ProfileViewController.m */,
+				2B0FF48118D1376500C9D4FA /* FavoritesViewController.h */,
+				2B0FF48218D1376500C9D4FA /* FavoritesViewController.m */,
 				2B0FF44618D1349700C9D4FA /* Diario de una Gourmande */,
 				2B0FF46818D1349700C9D4FA /* Diario de una GourmandeTests */,
 				2B0FF43F18D1349700C9D4FA /* Frameworks */,
@@ -104,6 +162,17 @@
 		2B0FF43F18D1349700C9D4FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2B0FF4A718D14B1D00C9D4FA /* SystemConfiguration.framework */,
+				2B0FF4A518D14B1300C9D4FA /* StoreKit.framework */,
+				2B0FF4A318D14B0C00C9D4FA /* Security.framework */,
+				2B0FF4A118D14B0500C9D4FA /* QuartzCore.framework */,
+				2B0FF49F18D14AE200C9D4FA /* MobileCoreServices.framework */,
+				2B0FF49D18D14AD400C9D4FA /* libz.dylib */,
+				2B0FF49B18D14ACC00C9D4FA /* CoreLocation.framework */,
+				2B0FF49918D14AC000C9D4FA /* CFNetwork.framework */,
+				2B0FF49718D14AB700C9D4FA /* AudioToolbox.framework */,
+				2B0FF49518D14A7C00C9D4FA /* Parse.framework */,
+				2B0FF49318D1437000C9D4FA /* FacebookSDK.framework */,
 				2B0FF44018D1349700C9D4FA /* Foundation.framework */,
 				2B0FF44218D1349700C9D4FA /* CoreGraphics.framework */,
 				2B0FF44418D1349700C9D4FA /* UIKit.framework */,
@@ -118,6 +187,12 @@
 				2B0FF44F18D1349700C9D4FA /* AppDelegate.h */,
 				2B0FF45018D1349700C9D4FA /* AppDelegate.m */,
 				2B0FF45218D1349700C9D4FA /* Main.storyboard */,
+				2B0FF48A18D13D4900C9D4FA /* EntryViewController.h */,
+				2B0FF48B18D13D4900C9D4FA /* EntryViewController.m */,
+				2B0FF48718D13D0D00C9D4FA /* RegisterViewController.h */,
+				2B0FF48818D13D0D00C9D4FA /* RegisterViewController.m */,
+				2B0FF48418D13B4500C9D4FA /* LoginViewController.h */,
+				2B0FF48518D13B4500C9D4FA /* LoginViewController.m */,
 				2B0FF45518D1349700C9D4FA /* FirstViewController.h */,
 				2B0FF45618D1349700C9D4FA /* FirstViewController.m */,
 				2B0FF45818D1349700C9D4FA /* SecondViewController.h */,
@@ -131,6 +206,9 @@
 		2B0FF44718D1349700C9D4FA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2B0FF48D18D13E8400C9D4FA /* flourish.png */,
+				2B0FF48E18D13E8400C9D4FA /* gourmande-bg.jpg */,
+				2B0FF48F18D13E8400C9D4FA /* logo.png */,
 				2B0FF44818D1349700C9D4FA /* Diario de una Gourmande-Info.plist */,
 				2B0FF44918D1349700C9D4FA /* InfoPlist.strings */,
 				2B0FF44C18D1349700C9D4FA /* main.m */,
@@ -235,7 +313,10 @@
 			files = (
 				2B0FF45C18D1349700C9D4FA /* Images.xcassets in Resources */,
 				2B0FF44B18D1349700C9D4FA /* InfoPlist.strings in Resources */,
+				2B0FF49218D13E8400C9D4FA /* logo.png in Resources */,
 				2B0FF45418D1349700C9D4FA /* Main.storyboard in Resources */,
+				2B0FF49018D13E8400C9D4FA /* flourish.png in Resources */,
+				2B0FF49118D13E8400C9D4FA /* gourmande-bg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +336,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B0FF45A18D1349700C9D4FA /* SecondViewController.m in Sources */,
+				2B0FF4AB18D152CE00C9D4FA /* ProfileViewController.m in Sources */,
 				2B0FF45118D1349700C9D4FA /* AppDelegate.m in Sources */,
+				2B0FF48318D1376500C9D4FA /* FavoritesViewController.m in Sources */,
 				2B0FF45718D1349700C9D4FA /* FirstViewController.m in Sources */,
+				2B0FF48C18D13D4900C9D4FA /* EntryViewController.m in Sources */,
+				2B0FF48618D13B4500C9D4FA /* LoginViewController.m in Sources */,
 				2B0FF44D18D1349700C9D4FA /* main.m in Sources */,
+				2B0FF48918D13D0D00C9D4FA /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +470,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/supervisor/Sites/Diario\\ de\\ una\\ Gourmande",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Diario de una Gourmande/Diario de una Gourmande-Prefix.pch";
 				INFOPLIST_FILE = "Diario de una Gourmande/Diario de una Gourmande-Info.plist";
@@ -397,6 +487,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/supervisor/Sites/Diario\\ de\\ una\\ Gourmande",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Diario de una Gourmande/Diario de una Gourmande-Prefix.pch";
 				INFOPLIST_FILE = "Diario de una Gourmande/Diario de una Gourmande-Info.plist";

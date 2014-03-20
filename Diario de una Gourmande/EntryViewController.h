@@ -11,7 +11,7 @@
 @interface EntryViewController : UIViewController
 
 @property (nonatomic, strong) IBOutlet UIActivityIndicatorView *activityIndicator;
-- (IBAction)loginBtn:(id)sender;
-- (IBAction)registerBtn:(id)sender;
-
+- (IBAction)loginBtn:(UIButton *)sender;
+- (IBAction)logoutBtn:(UIButton *)sender;
+@property (nonatomic, strong) UIButton *logoutBtn;
 @end

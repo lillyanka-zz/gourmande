@@ -115,24 +115,34 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [_rowDataArray count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    ProfileCell *cellMainView = (ProfileCell *) [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    //Si la celda no existe...
+    if (cellMainView == nil) {
+        //cargamos el .xib
+        [[NSBundle mainBundle] loadNibNamed:@"ProfileCell" owner:self options:nil];
+        //Y le asignamos la celda al atributo del .h
+        cellMainView = self._cell;
+    }
     
     // Configure the cell...
     
-    return cell;
+    cellMainView.ProfileLabel.text = [_rowTitleArray objectAtIndex:indexPath.row];
+    cellMainView.ProfileLabelValue.text = [_rowDataArray objectAtIndex:indexPath.row];
+    return cellMainView;
 }
 
 - (void)logoutButtonTouchHandler:(id)sender {

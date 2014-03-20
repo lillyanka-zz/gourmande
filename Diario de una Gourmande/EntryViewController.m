@@ -15,7 +15,6 @@
 @end
 
 @implementation EntryViewController
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -37,7 +36,7 @@
     
     // Check if user is cached and linked to Facebook, if so, bypass login
     if ([PFUser currentUser] && [PFFacebookUtils isLinkedWithUser:[PFUser currentUser]]) {
-        [self.navigationController pushViewController:[[ProfileViewController alloc] initWithStyle:UITableViewStyleGrouped] animated:NO];
+        [self.navigationController pushViewController:[[ProfileViewController alloc] initWithStyle:UITableViewStyleGrouped] animated:YES];
     }
 }
 
@@ -47,34 +46,40 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)loginBtn:(id)sender {
+
+- (IBAction)loginBtn:(UIButton *)sender {
     // The permissions requested from the user
     NSArray *permissionsArray = @[ @"user_about_me", @"user_relationships", @"user_birthday", @"user_location"];
     
-    // Login PFUser using Facebook
-    [PFFacebookUtils logInWithPermissions:permissionsArray block:^(PFUser *user, NSError *error) {
-        [_activityIndicator stopAnimating]; // Hide loading indicator
-        
-        if (!user) {
-            if (!error) {
-                NSLog(@"Uh oh. The user cancelled the Facebook login.");
+        [PFFacebookUtils logInWithPermissions:permissionsArray block:^(PFUser *user, NSError *error) {
+            [_activityIndicator stopAnimating]; // Hide loading indicator
+            
+            if (!user) {
+                if (!error) {
+                    NSLog(@"Uh oh. The user cancelled the Facebook login.");
+                } else {
+                    NSLog(@"Uh oh. An error occurred: %@", error);
+                }
+            } else if (user.isNew) {
+                NSLog(@"User with facebook signed up and logged in!");
+                [self.navigationController pushViewController:[[ProfileViewController alloc] initWithStyle:UITableViewStyleGrouped] animated:YES];
             } else {
-                NSLog(@"Uh oh. An error occurred: %@", error);
+                NSLog(@"User with facebook logged in!");
+                [self.navigationController pushViewController:[[ProfileViewController alloc] initWithStyle:UITableViewStyleGrouped] animated:YES];
             }
-        } else if (user.isNew) {
-            NSLog(@"User with facebook signed up and logged in!");
-            [self.navigationController pushViewController:[[ProfileViewController alloc] initWithStyle:UITableViewStyleGrouped] animated:YES];
-        } else {
-            NSLog(@"User with facebook logged in!");
-            [self.navigationController pushViewController:[[ProfileViewController alloc] initWithStyle:UITableViewStyleGrouped] animated:YES];
-        }
-    }];
+        }];
+    
+    // Login PFUser using Facebook
+    
     
     [_activityIndicator startAnimating]; // Show loading indicator until login is finished
 }
 
-
-
-- (IBAction)registerBtn:(id)sender {
+- (IBAction)logoutBtn:(UIButton *)sender {
+    
+    self.logoutBtn.hidden = YES;
+    [PFUser logOut];
+    NSLog(@"Logged out!");
 }
+
 @end

@@ -22,9 +22,6 @@
 		2B0FF46518D1349700C9D4FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FF44418D1349700C9D4FA /* UIKit.framework */; };
 		2B0FF46D18D1349700C9D4FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B0FF46B18D1349700C9D4FA /* InfoPlist.strings */; };
 		2B0FF46F18D1349700C9D4FA /* Diario_de_una_GourmandeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0FF46E18D1349700C9D4FA /* Diario_de_una_GourmandeTests.m */; };
-		2B0FF48318D1376500C9D4FA /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0FF48218D1376500C9D4FA /* FavoritesViewController.m */; };
-		2B0FF48618D13B4500C9D4FA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0FF48518D13B4500C9D4FA /* LoginViewController.m */; };
-		2B0FF48918D13D0D00C9D4FA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0FF48818D13D0D00C9D4FA /* RegisterViewController.m */; };
 		2B0FF48C18D13D4900C9D4FA /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0FF48B18D13D4900C9D4FA /* EntryViewController.m */; };
 		2B0FF49018D13E8400C9D4FA /* flourish.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0FF48D18D13E8400C9D4FA /* flourish.png */; };
 		2B0FF49118D13E8400C9D4FA /* gourmande-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B0FF48E18D13E8400C9D4FA /* gourmande-bg.jpg */; };
@@ -41,6 +38,10 @@
 		2B0FF4A618D14B1300C9D4FA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FF4A518D14B1300C9D4FA /* StoreKit.framework */; };
 		2B0FF4A818D14B1D00C9D4FA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FF4A718D14B1D00C9D4FA /* SystemConfiguration.framework */; };
 		2B0FF4AB18D152CE00C9D4FA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0FF4AA18D152CE00C9D4FA /* ProfileViewController.m */; };
+		2B508B0618DA77A4003515A9 /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B508B0518DA77A4003515A9 /* ProfileCell.xib */; };
+		2B508B0918DA77C0003515A9 /* ProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B508B0818DA77C0003515A9 /* ProfileCell.m */; };
+		2B508B0C18DA80AF003515A9 /* RecipeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B508B0B18DA80AF003515A9 /* RecipeViewCell.m */; };
+		2B508B0E18DA80C3003515A9 /* RecipeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B508B0D18DA80C3003515A9 /* RecipeViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,12 +76,6 @@
 		2B0FF46A18D1349700C9D4FA /* Diario de una GourmandeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Diario de una GourmandeTests-Info.plist"; sourceTree = "<group>"; };
 		2B0FF46C18D1349700C9D4FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B0FF46E18D1349700C9D4FA /* Diario_de_una_GourmandeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Diario_de_una_GourmandeTests.m; sourceTree = "<group>"; };
-		2B0FF48118D1376500C9D4FA /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
-		2B0FF48218D1376500C9D4FA /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
-		2B0FF48418D13B4500C9D4FA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		2B0FF48518D13B4500C9D4FA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		2B0FF48718D13D0D00C9D4FA /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
-		2B0FF48818D13D0D00C9D4FA /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		2B0FF48A18D13D4900C9D4FA /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
 		2B0FF48B18D13D4900C9D4FA /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
 		2B0FF48D18D13E8400C9D4FA /* flourish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flourish.png; sourceTree = "<group>"; };
@@ -99,6 +94,12 @@
 		2B0FF4A718D14B1D00C9D4FA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2B0FF4A918D152CE00C9D4FA /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		2B0FF4AA18D152CE00C9D4FA /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		2B508B0518DA77A4003515A9 /* ProfileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
+		2B508B0718DA77C0003515A9 /* ProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileCell.h; sourceTree = "<group>"; };
+		2B508B0818DA77C0003515A9 /* ProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileCell.m; sourceTree = "<group>"; };
+		2B508B0A18DA80AF003515A9 /* RecipeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewCell.h; sourceTree = "<group>"; };
+		2B508B0B18DA80AF003515A9 /* RecipeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewCell.m; sourceTree = "<group>"; };
+		2B508B0D18DA80C3003515A9 /* RecipeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +142,9 @@
 			children = (
 				2B0FF4A918D152CE00C9D4FA /* ProfileViewController.h */,
 				2B0FF4AA18D152CE00C9D4FA /* ProfileViewController.m */,
-				2B0FF48118D1376500C9D4FA /* FavoritesViewController.h */,
-				2B0FF48218D1376500C9D4FA /* FavoritesViewController.m */,
+				2B508B0A18DA80AF003515A9 /* RecipeViewCell.h */,
+				2B508B0B18DA80AF003515A9 /* RecipeViewCell.m */,
+				2B508B0D18DA80C3003515A9 /* RecipeViewCell.xib */,
 				2B0FF44618D1349700C9D4FA /* Diario de una Gourmande */,
 				2B0FF46818D1349700C9D4FA /* Diario de una GourmandeTests */,
 				2B0FF43F18D1349700C9D4FA /* Frameworks */,
@@ -189,16 +191,15 @@
 				2B0FF45218D1349700C9D4FA /* Main.storyboard */,
 				2B0FF48A18D13D4900C9D4FA /* EntryViewController.h */,
 				2B0FF48B18D13D4900C9D4FA /* EntryViewController.m */,
-				2B0FF48718D13D0D00C9D4FA /* RegisterViewController.h */,
-				2B0FF48818D13D0D00C9D4FA /* RegisterViewController.m */,
-				2B0FF48418D13B4500C9D4FA /* LoginViewController.h */,
-				2B0FF48518D13B4500C9D4FA /* LoginViewController.m */,
 				2B0FF45518D1349700C9D4FA /* FirstViewController.h */,
 				2B0FF45618D1349700C9D4FA /* FirstViewController.m */,
 				2B0FF45818D1349700C9D4FA /* SecondViewController.h */,
 				2B0FF45918D1349700C9D4FA /* SecondViewController.m */,
 				2B0FF45B18D1349700C9D4FA /* Images.xcassets */,
 				2B0FF44718D1349700C9D4FA /* Supporting Files */,
+				2B508B0518DA77A4003515A9 /* ProfileCell.xib */,
+				2B508B0718DA77C0003515A9 /* ProfileCell.h */,
+				2B508B0818DA77C0003515A9 /* ProfileCell.m */,
 			);
 			path = "Diario de una Gourmande";
 			sourceTree = "<group>";
@@ -314,8 +315,10 @@
 				2B0FF45C18D1349700C9D4FA /* Images.xcassets in Resources */,
 				2B0FF44B18D1349700C9D4FA /* InfoPlist.strings in Resources */,
 				2B0FF49218D13E8400C9D4FA /* logo.png in Resources */,
+				2B508B0618DA77A4003515A9 /* ProfileCell.xib in Resources */,
 				2B0FF45418D1349700C9D4FA /* Main.storyboard in Resources */,
 				2B0FF49018D13E8400C9D4FA /* flourish.png in Resources */,
+				2B508B0E18DA80C3003515A9 /* RecipeViewCell.xib in Resources */,
 				2B0FF49118D13E8400C9D4FA /* gourmande-bg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,12 +341,11 @@
 				2B0FF45A18D1349700C9D4FA /* SecondViewController.m in Sources */,
 				2B0FF4AB18D152CE00C9D4FA /* ProfileViewController.m in Sources */,
 				2B0FF45118D1349700C9D4FA /* AppDelegate.m in Sources */,
-				2B0FF48318D1376500C9D4FA /* FavoritesViewController.m in Sources */,
+				2B508B0C18DA80AF003515A9 /* RecipeViewCell.m in Sources */,
 				2B0FF45718D1349700C9D4FA /* FirstViewController.m in Sources */,
 				2B0FF48C18D13D4900C9D4FA /* EntryViewController.m in Sources */,
-				2B0FF48618D13B4500C9D4FA /* LoginViewController.m in Sources */,
 				2B0FF44D18D1349700C9D4FA /* main.m in Sources */,
-				2B0FF48918D13D0D00C9D4FA /* RegisterViewController.m in Sources */,
+				2B508B0918DA77C0003515A9 /* ProfileCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,6 +562,7 @@
 				2B0FF47418D1349700C9D4FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B0FF47518D1349700C9D4FA /* Build configuration list for PBXNativeTarget "Diario de una GourmandeTests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +571,7 @@
 				2B0FF47718D1349700C9D4FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

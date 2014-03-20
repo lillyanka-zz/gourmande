@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ProfileCell.h"
 
-@interface ProfileViewController : UITableViewController
+@interface ProfileViewController : UITableViewController{
+    ProfileCell *_cell;
+    NSMutableArray *infoArray;
+}
+
+@property (strong, nonatomic) IBOutlet ProfileCell *_cell;
 
 // UITableView header view properties
 @property (nonatomic, strong) IBOutlet UIView *headerView;
